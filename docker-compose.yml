@@ -1,0 +1,22 @@
+version: "0.0.1"
+
+services:
+  apache-test-web-app:
+    container_name: apache-test-web-app
+    image: apache-test-web-app
+    build:
+      context: .
+      dockerfile: dockerfile
+    ports:
+      - 8080:80
+    volumes:
+      - ./log:/usr/local/apache2/logs/
+      - ./httpd.conf/httpd.conf:/usr/local/apache2/conf/httpd.conf
+      - ./conf.d:/usr/local/apache2/conf/conf.d
+      - ./htdocs:/usr/local/apache2/htdocs/
+    networks:
+      - networks-host
+
+networks:
+  networks-host:
+    driver: bridge

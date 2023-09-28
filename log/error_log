@@ -1,0 +1,58 @@
+[Thu Sep 28 14:12:14.302731 2023] [core:crit] [pid 1:tid 140284261840768] AH00136: Server MUST relinquish startup privileges before accepting connections.  Please ensure mod_unixd or other system security module is loaded.
+AH00016: Configuration Failed
+[Thu Sep 28 14:12:26.698416 2023] [core:crit] [pid 1:tid 139834114213760] AH00136: Server MUST relinquish startup privileges before accepting connections.  Please ensure mod_unixd or other system security module is loaded.
+AH00016: Configuration Failed
+[Thu Sep 28 14:12:30.475471 2023] [core:crit] [pid 1:tid 140637690247040] AH00136: Server MUST relinquish startup privileges before accepting connections.  Please ensure mod_unixd or other system security module is loaded.
+AH00016: Configuration Failed
+[Thu Sep 28 14:15:32.650086 2023] [unixd:alert] [pid 10:tid 140691248859008] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Sep 28 14:15:32.649764 2023] [mpm_event:notice] [pid 1:tid 140691248859008] AH00489: Apache/2.4.57 (Unix) configured -- resuming normal operations
+[Thu Sep 28 14:15:32.651796 2023] [core:notice] [pid 1:tid 140691248859008] AH00094: Command line: 'httpd -D FOREGROUND'
+[Thu Sep 28 14:15:32.649657 2023] [unixd:alert] [pid 8:tid 140691248859008] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Sep 28 14:15:32.649848 2023] [unixd:alert] [pid 9:tid 140691248859008] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Sep 28 14:16:12.705848 2023] [unixd:alert] [pid 92:tid 140691248859008] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Sep 28 14:23:25.028505 2023] [mpm_event:notice] [pid 1:tid 140691248859008] AH00492: caught SIGWINCH, shutting down gracefully
+[Thu Sep 28 14:24:15.105802 2023] [mpm_event:notice] [pid 1:tid 140245901096832] AH00489: Apache/2.4.57 (Unix) configured -- resuming normal operations
+[Thu Sep 28 14:24:15.105916 2023] [unixd:alert] [pid 9:tid 140245901096832] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Sep 28 14:24:15.105855 2023] [unixd:alert] [pid 8:tid 140245901096832] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Sep 28 14:24:15.106216 2023] [unixd:alert] [pid 10:tid 140245901096832] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Sep 28 14:24:15.107507 2023] [core:notice] [pid 1:tid 140245901096832] AH00094: Command line: 'httpd -D FOREGROUND'
+[Thu Sep 28 14:24:56.158637 2023] [unixd:alert] [pid 92:tid 140245901096832] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Sep 28 14:25:29.327781 2023] [mpm_event:notice] [pid 1:tid 140245901096832] AH00492: caught SIGWINCH, shutting down gracefully
+[Thu Sep 28 14:26:08.890830 2023] [mpm_event:notice] [pid 1:tid 140276547204992] AH00489: Apache/2.4.57 (Unix) configured -- resuming normal operations
+[Thu Sep 28 14:26:08.890968 2023] [unixd:alert] [pid 9:tid 140276547204992] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Sep 28 14:26:08.891189 2023] [unixd:alert] [pid 10:tid 140276547204992] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Sep 28 14:26:08.890982 2023] [unixd:alert] [pid 8:tid 140276547204992] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Sep 28 14:26:08.892258 2023] [core:notice] [pid 1:tid 140276547204992] AH00094: Command line: 'httpd -D FOREGROUND'
+[Thu Sep 28 14:26:37.143939 2023] [mpm_event:notice] [pid 1:tid 140276547204992] AH00492: caught SIGWINCH, shutting down gracefully
+[Thu Sep 28 14:27:34.929169 2023] [unixd:alert] [pid 10:tid 140640481388416] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Sep 28 14:27:34.929033 2023] [unixd:alert] [pid 8:tid 140640481388416] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Sep 28 14:27:34.928898 2023] [mpm_event:notice] [pid 1:tid 140640481388416] AH00489: Apache/2.4.57 (Unix) configured -- resuming normal operations
+[Thu Sep 28 14:27:34.929027 2023] [unixd:alert] [pid 9:tid 140640481388416] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Sep 28 14:27:34.931953 2023] [core:notice] [pid 1:tid 140640481388416] AH00094: Command line: 'httpd -D FOREGROUND'
+[Thu Sep 28 14:28:29.854176 2023] [mpm_event:notice] [pid 1:tid 140640481388416] AH00492: caught SIGWINCH, shutting down gracefully
+[Thu Sep 28 14:28:51.472472 2023] [unixd:alert] [pid 10:tid 140052653610880] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Sep 28 14:28:51.471933 2023] [unixd:alert] [pid 8:tid 140052653610880] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Sep 28 14:28:51.472207 2023] [unixd:alert] [pid 9:tid 140052653610880] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Sep 28 14:28:51.472106 2023] [mpm_event:notice] [pid 1:tid 140052653610880] AH00489: Apache/2.4.57 (Unix) configured -- resuming normal operations
+[Thu Sep 28 14:28:51.475932 2023] [core:notice] [pid 1:tid 140052653610880] AH00094: Command line: 'httpd -D FOREGROUND'
+[Thu Sep 28 14:30:31.483312 2023] [mpm_event:notice] [pid 1:tid 140052653610880] AH00492: caught SIGWINCH, shutting down gracefully
+[Thu Sep 28 14:31:43.999673 2023] [mpm_event:notice] [pid 1:tid 140505590237056] AH00489: Apache/2.4.57 (Unix) configured -- resuming normal operations
+[Thu Sep 28 14:31:43.999833 2023] [unixd:alert] [pid 9:tid 140505590237056] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Sep 28 14:31:43.999823 2023] [unixd:alert] [pid 8:tid 140505590237056] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Sep 28 14:31:43.999968 2023] [unixd:alert] [pid 10:tid 140505590237056] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Sep 28 14:31:44.000960 2023] [core:notice] [pid 1:tid 140505590237056] AH00094: Command line: 'httpd -D FOREGROUND'
+[Thu Sep 28 14:35:50.245456 2023] [mpm_event:notice] [pid 1:tid 140505590237056] AH00492: caught SIGWINCH, shutting down gracefully
+[Thu Sep 28 14:37:38.439768 2023] [unixd:alert] [pid 8:tid 140484062107520] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Sep 28 14:37:38.439842 2023] [unixd:alert] [pid 9:tid 140484062107520] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Sep 28 14:37:38.439765 2023] [mpm_event:notice] [pid 1:tid 140484062107520] AH00489: Apache/2.4.57 (Unix) configured -- resuming normal operations
+[Thu Sep 28 14:37:38.440160 2023] [unixd:alert] [pid 10:tid 140484062107520] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Sep 28 14:37:38.443233 2023] [core:notice] [pid 1:tid 140484062107520] AH00094: Command line: 'httpd -D FOREGROUND'
+[Thu Sep 28 14:52:40.492626 2023] [unixd:alert] [pid 92:tid 140484062107520] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Sep 28 14:54:38.851368 2023] [mpm_event:notice] [pid 1:tid 140484062107520] AH00492: caught SIGWINCH, shutting down gracefully
+[Thu Sep 28 16:20:53.921494 2023] [unixd:alert] [pid 8:tid 140585637873536] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Sep 28 16:20:53.921488 2023] [unixd:alert] [pid 10:tid 140585637873536] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Sep 28 16:20:53.919566 2023] [mpm_event:notice] [pid 1:tid 140585637873536] AH00489: Apache/2.4.57 (Unix) configured -- resuming normal operations
+[Thu Sep 28 16:20:53.921524 2023] [unixd:alert] [pid 9:tid 140585637873536] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Sep 28 16:20:53.945770 2023] [core:notice] [pid 1:tid 140585637873536] AH00094: Command line: 'httpd -D FOREGROUND'
+[Thu Sep 28 16:21:04.976886 2023] [unixd:alert] [pid 92:tid 140585637873536] AH02155: getpwuid: couldn't determine user name from uid 4294967295, you probably need to modify the User directive
+[Thu Sep 28 16:40:50.423697 2023] [mpm_event:notice] [pid 1:tid 140585637873536] AH00492: caught SIGWINCH, shutting down gracefully
